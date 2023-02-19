@@ -23,6 +23,8 @@ It doesnt works with xbindkeys tho I think you can bind this combination in Gnom
 9) If you want additional unfuckery you can enable `service.pl`. Make it autostart with gnome and it will protect you from human error, for example if you switch layout with mouse in system tray for forbidden app, it will revert layout back to forced one. Ffs for some reason it stabily works every even time and every odd time it does nothing because dbus events get swallowed. Idk why thanks Poettering and fuck this shit I had enuf of DBUS for now and its additional unfuckery anyways
 # Bonus
 Because you got rid of that soylent-inspired layout popup that pops up when you press Super+Space - your window focus wont get fucked up anymore when you switch layouts. Focus wont jump around anymore. This is utterly a good thing to know that you defeated that annoying retarded bug too for ya future piece of mind and joy of typing
+![alt text](gnome1.png)
+![alt text](gnome2.png)
 # Bonus2
 Ok I decided to attach my startup.desktop file, which is by concept is some sort of rc.local but for gnome-session. I find it convenient because I can patch that startup script anytime and even set the order of the startup apps. You can put all commands you need to that startup script and place desktop file once inside `~/.config/autostart/` folder.
 Much better than fucking creating *.desktop files for each fucking shit like it is designed in gnome as some fucktarded "correct soy-way"
